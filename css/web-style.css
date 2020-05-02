@@ -1,0 +1,165 @@
+*{ margin: 0px;
+    padding: 0px;
+}
+.col{
+    padding-top: 10px;
+    font-size: 18px;
+    color: white; 
+    
+}
+.col li{
+    display: inline;
+    list-style: none;
+   margin: 10px;
+   
+}
+.col-head h6{
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+}
+.col-btn{
+    padding: 8px;
+    
+}
+.move{
+background-color: #316DC3;
+margin: 20px;
+color: white;
+height: 40px;
+padding: 5px;
+}
+
+
+.container span{
+    color: rgb(99, 156, 13);
+}
+.container-fluid para{
+    background-color: container-fluid para;
+}
+.intro-head
+{ color: #316DC3;
+    margin-top: 40px;
+    margin-left:700px ;
+    margin-bottom: 40px;
+}
+.intro-head span{
+    color: greenyellow;
+}
+.container h2{
+    text-align: center;
+    color: #316DC3 ;
+    
+}
+.container paragraph{
+    width: 50%;
+}
+
+.paragraph{
+    width: 80%;
+    display: block;
+    margin-left: 100px;
+    text-align: justify;
+}
+.columns img{
+   padding-left: 20px;
+    margin-top: 50px;
+    position: relative;
+    top: 30px;
+}
+.columns{
+    margin-bottom: 60px;
+}
+.columns h2,h6{
+    color: #fff;
+}
+.row p{
+    text-align: justify;
+    
+}
+.row h2{
+    
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 15px;
+   
+}
+.logo img{
+    margin-bottom: 20px;
+}
+.hover-nav a:hover{
+    background-color: #316DC3;
+    border-radius: 20px;
+    color: #fff;
+
+} 
+.home a{
+    background-color:#316DC3;
+    border-radius: 20px;
+}
+.col-sm-4{
+    padding: 20px;
+}
+.alignment{
+    padding: 20px;
+}
+.fonts{
+    color: #316DC3;
+
+}
+.image-gallery{
+    margin-top: 200px;
+}
+.style-img :after {
+    display: inline-block;
+    margin: 0 0 8px 20px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 140px;
+}
+.style-img:before {
+    display: inline-block;
+    margin: 0 20px 8px 0;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color: #999;
+    width: 140px;
+}
+.images-align{
+margin-top: 50px;
+margin-bottom: 200px;
+}
+.icons-style li{
+    display: inline;
+padding:10px;
+background-color:#316DC3  ;
+border-radius:40px;
+
+}
+.footer {
+    background-color:#316DC3  ;
+
+}
+.media-body{
+    display: table-cell;
+    
+}
+.arrow-top{
+    position: fixed;
+  bottom: 1px;
+  right: 16px;
+  
+  
+}
+.arrow-top img{
+    
+    border-radius: 10px;
+}
+
+
+
+
+

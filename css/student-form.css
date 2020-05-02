@@ -1,0 +1,150 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{    
+    width: 1600px;
+}
+
+.head{
+    color: #6B5ACD;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#container{
+    background-color: #6B5ACD;
+    width: 900px;
+ 
+ margin-top: 30px;
+ height: 1250px;
+}
+
+.button{
+    margin-left: 200px;
+}
+.first{ 
+    margin-left: 40px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+.last{
+    margin-left: 44px ;
+    margin-top: 10px;
+   margin-bottom: 20px;
+}
+.dob{
+    margin-left: 19px;
+    width: 163px;
+    margin-top: 10px;
+   margin-bottom: 20px;
+}
+.mail{
+    margin-left: 59px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.mobile{
+    margin-left: 70px;
+    margin-top: 10px;
+   margin-bottom: 20px;
+}
+.gender{
+    margin-left: 90px;
+    margin-top: 10px;
+   margin-bottom: 20px;
+   color: #FFFFFF;
+
+}
+.city{
+    margin-left: 96px;
+    margin-top: 10px;
+   margin-bottom: 20px
+}
+.pin{
+    margin-left: 60px;
+    margin-top: 10px;
+   margin-bottom: 20px
+}
+.state{
+    margin-left: 87px;
+    margin-top: 10px;
+   margin-bottom: 20px
+}
+.country{
+    margin-left: 59px;
+    margin-top: 10px;
+   margin-bottom: 20px
+}
+.hobbies{
+    margin-left: 65px;
+    margin-top: 10px;
+   margin-bottom: 20px
+}
+.other{
+    
+    margin-left: 137px;
+}
+.radio{
+    margin-left: 35px;
+}
+.button{
+    height: 28px;
+    width: 80px;
+    margin-top: 35px;
+    margin-left: 320px;
+    
+}
+.btn{
+    height: 25px;
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+#table{
+    margin-top: 20px;
+}
+.img{
+    margin-left: 650px;
+}
+.thanku{
+    margin-left: 700px;
+    color: #41AD49;
+    margin-bottom: 20px;
+}
+.link{
+    margin-left: 735px;
+    color:#6B5ACD;
+    font-size: xx-large;
+   
+}
+.heading{
+margin-left: 500px;
+color: #6B5ACD;
+}
+.area{
+  margin-top: 15px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+.board{
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+.thead{
+    margin-left: 2px;
+}
+#form{
+    margin-left: 20px;
+
+}
+.qualification{
+    padding-right: 10px;
+    color:#FFFFFF ;
+}
+
+ label ,td{
+    color: #FFFFFF;
+}
+
