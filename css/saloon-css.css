@@ -1,0 +1,123 @@
+*{    margin: 0px;
+    padding: 0px;
+   
+}
+.front-img{
+    height: 300px;
+}
+
+.img-fluid{
+    height: 500px;
+}
+i{ 
+    color: red;
+}
+i:hover{
+color: #343A40;
+}
+.input input:hover{
+    color:red;
+}
+.input{
+    color:red;
+}
+.row-margin{
+    margin-top: 80px;
+}
+.box{
+    background: url("https://d2eohwa6gpdg50.cloudfront.net/content/uploads/2018/11/16173029/RF-SG001.jpg");
+    background-repeat: no-repeat;
+    height: auto !important;
+background-attachment: fixed;
+background-size: cover;
+
+}
+.image{
+    width: 100%;
+    
+}
+.img-about{
+    
+    width: 100% 
+    ;
+    background-size: cover;
+    
+}
+.bgimg{
+    height: auto !important;
+    width: 100% !important;
+}
+
+@media screen and (max-width: 375px) {
+    .media{ 
+        width: 100%;
+        height: 100px;
+
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .setng >img { width: 100%;
+        height: 250px;
+
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .font >h1 { font-size: 15px;
+
+    }
+  }
+  
+  
+.form-control{
+   
+      border-color: khaki !important;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #cc1a20 !important;
+}
+.control{
+    position: fixed;
+    top: 10px;
+}
+.font{
+    color:black  !important;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+.image:hover{
+    border-bottom: 2px solid #cc1a20 !important;
+
+}
+.btn-primary{
+width: 80px !important;
+margin-left: 10px;
+}
+.width{
+    height: 280px !important;
+}
+.fa-facebook{
+    color: white !important;
+   margin-right: 5px;
+}
+.fa-share-alt{
+    /* font-size: 15px !important; */
+    color: white !important;
+  padding-right: 5px;
+
+} 
+.btn-primary{
+    width: 100px !important;
+}
+.bg{
+    background-image:url("https://www.radio92fm.com.br/wp-content/uploads/2016/05/destaque01.jpg");
+    background-repeat: no-repeat;
+     
+    height: auto !important;
+background-attachment: fixed;
+background-size: cover;
+}
+.para{
+    text-align: justify;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}

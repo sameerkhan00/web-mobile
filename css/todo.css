@@ -1,0 +1,32 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('https://img.wallpapersafari.com/desktop/1600/900/45/26/w43lpK.jpg');
+    background-repeat: no-repeat;
+}
+.btn-width{
+width: 120px;
+}
+
+input:focus{
+/* color: khaki !important; */
+background-clip: black !important;
+}
+.btn-edit{
+    margin-left: 20px;
+    width: 80px;
+}
+.fa-trash{
+    font-size: 21px !important;
+}
+.fa-plus-circle{
+    font-size: 21px !important;
+ 
+}
+@media screen and (max-width: 320px) { 
+
+    }
+@media screen and (max-width: 454px) {
+
+
+    }

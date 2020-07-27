@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>MyTodo</title>
+    <link rel="stylesheet" href="css/todo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/cf361f768e.js"></script>
+</head>
+<body>
+    <!-- <H2 style="text-align: center;">My Day</H2> -->
+    <div class="container">
+        <h1 class="display-1 text-center text-white mt-2" > <span style="color: red;">My</span>Day</h1>
+        <div class="input-group mb-3 mt-4">
+            <input type="text" id="input-list" class="form-control rounded mr-3" placeholder="Add Work"  aria-describedby="basic-addon2"> 
+
+        </div>
+    </div>
+
+    <div class="container text-center sm-12 ">
+            <!-- <div class="input-group-append"> -->
+              
+              <button class="btn  btn-width mr-4 mb-2 bg-light text-dark" onclick="add_list()" type="button"> <i class="fa fa-plus-circle p-1" aria-hidden="true"></i> Add</button>
+            
+              <button class="btn  btn-width  mb-2 bg-light text-dark" onclick="delete_All()" type="button"> <i class="fa fa-trash p-1" aria-hidden="true"></i> Delete All</button>
+            </div>
+          </div>
+
+          <div class="container text-white" id="list">
+            <ul>
+
+            </ul>
+          </div>
+    </div>
+
+
+
+    
+
+
+
+    <script src="js/todo.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

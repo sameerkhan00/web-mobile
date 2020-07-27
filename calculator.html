@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Calculator</title>
+    <link rel="stylesheet" href="css/calculator.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+      <div class="container text-center border border-white">
+                    <div class="row d-flex justify-content-center mt-5">
+                <div class="col-sm-12">
+            <h1 class="display-4 text-white mb-3"> Calculator </h1>
+        </div>
+    </div>
+           <div class="row d-flex justify-content-center">
+                <div class="col-sm-5  ">
+                
+                    
+                    <div class="input-group input-group-lg">
+                        <div class="input-group-prepend ">
+                          
+                        </div>
+                        <input type="text" class="form-control text-white  text-right "  id="result" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+                      </div>
+                       </div>
+                </div>
+                <div class=" row d-flex justify-content-center mt-3">
+                    <div>
+                        <button type="button" class="btn btn-primary btn-width " onclick="sinFunc()">sin</button>
+                        <button type="button" class="btn btn-primary btn-width " onclick="cosFunc()">cos</button>
+                        <button type="button" class="btn btn-primary btn-width " onclick="tanFunc()">tan</button>
+                        <button type="button" class="btn btn-primary btn-width " onclick="clearResult()">C</button>
+                       
+                    </div>
+                    </div>
+
+                <div class=" row d-flex justify-content-center ">
+                    <div>
+                        
+                        <button type="button" class="btn btn-primary btn-width" onclick="squareFunc()">sqrt</button>
+                        <button type="button" class="btn btn-primary btn-width" onclick="">CE</button>
+                        <button type="button" class="btn btn-primary btn-width">%</button>
+                        <button type="button" class="btn btn-primary btn-width" onclick="getNum('+')">+</button>
+                    </div>
+                    </div>
+
+               
+
+                <div class=" row d-flex justify-content-center">
+                    <div>
+                        <button type="button" class="btn btn-primary  btn-width" onclick="getNum('7')">7</button>
+                        <button type="button" class="btn btn-primary  btn-width" onclick="getNum('8')">8</button>
+                        <button type="button" class="btn btn-primary  btn-width" onclick="getNum('9')">9</button>
+                        <button type="button" class="btn btn-primary  btn-width" onclick="getNum('*')">X</button>
+                    </div>
+                    </div>
+
+                    <div class=" row d-flex justify-content-center">
+                        <div>
+                            <button type="button" class="btn btn-primary btn-width" onclick="getNum('4')">4</button>
+                            <button type="button" class="btn btn-primary btn-width" onclick="getNum('5')">5</button>
+                            <button type="button" class="btn btn-primary btn-width" onclick="getNum('6')">6</button>
+                            <button type="button" class="btn btn-primary btn-width" onclick="getNum('-')">-</button>
+                        </div>
+                        </div>
+                        <div class=" row d-flex justify-content-center">
+                            <div>
+                                <button type="button" class="btn btn-primary btn-width " onclick="getNum('1')">1</button>
+                                <button type="button" class="btn btn-primary btn-width" onclick="getNum('2')">2</button>
+                                <button type="button" class="btn btn-primary btn-width" onclick="getNum('3')">3</button>
+                                <button type="button" class="btn btn-primary btn-width " onclick="getNum('/')" >/</button>
+                            </div>
+                            </div>
+
+                            
+                            <div class=" row d-flex justify-content-center mb-5">
+                               <div>
+                                <button type="button" class="btn btn-primary btn-width" onclick="getNum('0')">0</button>
+                                <button type="button" class="btn btn-primary btn-width" onclick="getNum('00')">00</button>
+                                <button type="button" class="btn btn-primary btn-width " onclick="getNum('.')" >.</button>
+                                <button type="button" class="btn btn-primary btn-width bg-color" onclick="resultbtn()">=</button>
+                                
+                            </div>
+                                </div>
+
+                                   
+                                
+                                
+                                
+            
+
+        </div>
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+</body>
+<script src="app.js"></script>
+</html>
